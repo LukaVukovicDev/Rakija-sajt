@@ -18,7 +18,8 @@ It features a stylish landing page, product showcase, shopping cart simulation, 
 - **Add to Cart Simulation** – basic cart logic using JavaScript  
 - **Contact Form** – PHP-based backend form that sends messages or stores them  
 - **Responsive Design** – optimized for desktop, tablet, and mobile screens  
-- **Animations** – subtle hover and scroll animations using CSS & JS  
+- **Animations** – subtle hover and scroll animations using CSS & JS
+- **Two step authentication** - better security standards
 
 ---
 
