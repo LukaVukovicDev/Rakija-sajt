@@ -1,0 +1,153 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+body {
+  height: 100vh;
+}
+/* -----------------CART PAGE*---------------*/
+.products-container {
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  width: 100%;
+}
+
+.product-header {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid lightgrey;
+  margin: 0 auto;
+}
+.product-title {
+  width: 45%;
+}
+.price {
+  width: 15%;
+  display: flex;
+  align-items: center;
+}
+.price-div {
+  width: 15%;
+  display: flex;
+  align-items: center;
+
+  position: absolute;
+  left: 46%;
+  transform: translateY(-420%);
+}
+
+.quantity {
+  width: 30%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+.quantity-div {
+  width: 30%;
+
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 64%;
+  transform: translateY(-420%);
+}
+.total {
+  width: 10%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+.total-div {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 90%;
+  transform: translateY(-230%);
+}
+.product {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid lightgray;
+}
+.tabela-sekcija {
+  width: 100%;
+}
+
+/*-------------navbar----------------*/
+
+nav {
+  display: flex;
+  padding: 0% 3%;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 22;
+}
+
+nav .fa {
+  color: aliceblue;
+  margin: 10px;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+
+nav img {
+  width: 60px;
+  float: left;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+  width: 100%;
+  margin-bottom: 70px;
+  position: absolute;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+
+  position: relative;
+}
+
+.nav-links ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: yellow;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+  width: 100%;
+}
